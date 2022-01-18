@@ -2315,6 +2315,124 @@ const romeBuildings = {
         }
       }
     }
+  },
+  lumber: {
+    tier1: {
+      villageLoggers: {
+        baseCost: 1100,
+        food: 0,
+        growth: 1,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 40
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 5,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier2: {
+      settlementLoggingCamp: {
+        baseCost: 1600,
+        food: -1,
+        growth: 2,
+        publicOrder: 1,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 60
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 10,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier3: {
+      townTimberYard: {
+        baseCost: 2300,
+        food: -4,
+        growth: 3,
+        publicOrder: 2,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 80
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 15,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier4: {
+      coloniaTimberTrader: {
+        baseCost: 3200,
+        food: -8,
+        growth: 4,
+        publicOrder: 3,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 100
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 20,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    }
   }
 }
 
