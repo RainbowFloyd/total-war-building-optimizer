@@ -22,7 +22,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -49,7 +50,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -74,7 +76,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -101,7 +104,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -126,7 +130,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -153,7 +158,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -178,7 +184,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -207,7 +214,8 @@ const romeBuildings = {
             culture: 0,
             commerce: 0,
             industry: 0,
-            Maritime: 0,
+            maritime: 0,
+            trade: 0,
             slaves: 0
           }
       }
@@ -234,7 +242,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 3,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -259,7 +268,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -284,7 +294,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -311,7 +322,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 6,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -336,7 +348,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -361,7 +374,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -388,7 +402,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 9,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -413,7 +428,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -438,7 +454,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -467,7 +484,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -494,7 +512,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 10,
+          maritime: 10,
+          trade: 0,
           slaves: 0
         }
       },
@@ -519,7 +538,8 @@ const romeBuildings = {
           culture: 5,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -544,7 +564,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 3
         }
       },
@@ -569,7 +590,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 5,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -594,7 +616,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -621,7 +644,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -646,7 +670,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 6
         }
       },
@@ -671,7 +696,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 10,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -696,7 +722,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -721,7 +748,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 20,
+          maritime: 20,
+          trade: 0,
           slaves: 0
         }
       }
@@ -748,7 +776,8 @@ const romeBuildings = {
           culture: 20,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -773,7 +802,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 12
         }
       },
@@ -798,7 +828,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 20,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -823,7 +854,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -848,7 +880,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 30,
+          maritime: 30,
+          trade: 0,
           slaves: 0
         }
       }
@@ -875,7 +908,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -904,7 +938,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -931,7 +966,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -956,7 +992,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -981,7 +1018,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -1008,7 +1046,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -1033,7 +1072,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -1058,7 +1098,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -1085,7 +1126,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -1110,7 +1152,8 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       },
@@ -1135,7 +1178,8 @@ const romeBuildings = {
           culture: 240,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -1162,7 +1206,122 @@ const romeBuildings = {
           culture: 0,
           commerce: 0,
           industry: 0,
-          Maritime: 0,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    }
+  },
+  amber: {
+    tier1: {
+      villageAmberShore: {
+        baseCost: 1000,
+        food: 0,
+        growth: 1,
+        publicOrder: 1,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 150,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 2,
+          slaves: 0
+        }
+      }
+    },
+    tier2: {
+      settlementAmberCollector: {
+        baseCost: 1400,
+        food: -1,
+        growth: 2,
+        publicOrder: 2,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 250,
+          inndustry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 4
+          slaves: 0
+        }
+      }
+    }
+    tier3: {
+      townAmberTrader: {
+        baseCost: 1900,
+        food: -4,
+        growth: 3,
+        publicOrder: 3,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 350,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 6,
+          slaves: 0
+        }
+      }
+    },
+    tier4: {
+      coloniaAmberRoad: {
+        baseCost: 2500,
+        food: -8,
+        growth: 4,
+        publicOrder: 4,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 500,
+          inndustry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 8,
           slaves: 0
         }
       }
@@ -1184,12 +1343,13 @@ const romeBuildings = {
           commerce: 0,
           inndustry: 0
         },
-        bo0ost: {
+        boost: {
           all: 0,
           agriculture: 0,
           culture: 0,
           commerce: 0,
-          inndustry: 0,
-          Maritime: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
