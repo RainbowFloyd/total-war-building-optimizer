@@ -1222,7 +1222,7 @@ const romeBuildings = {
         publicOrder: 1,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1250,7 +1250,7 @@ const romeBuildings = {
         publicOrder: 2,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1278,7 +1278,7 @@ const romeBuildings = {
         publicOrder: 3,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1306,7 +1306,7 @@ const romeBuildings = {
         publicOrder: 4,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1336,7 +1336,7 @@ const romeBuildings = {
         publicOrder: 1,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1364,7 +1364,7 @@ const romeBuildings = {
         publicOrder: 2,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1392,7 +1392,7 @@ const romeBuildings = {
         publicOrder: 4,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1420,7 +1420,7 @@ const romeBuildings = {
         publicOrder: 6,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
@@ -1440,6 +1440,120 @@ const romeBuildings = {
         }
       }
     }
+  },
+  glass: {
+    tier1: {
+      villageGlassware: {
+        baseCost: 1000,
+        food: 0,
+        growth: 1,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 4,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 100
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier2: {
+      settlementGlassBlower: {
+        baseCost: 1400,
+        food: -1,
+        growth: 2,
+        publicOrder: 1,
+        latin: 0,
+        political: 0,
+        research: 8,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 150
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier3: {
+      townGlassMaker: {
+        baseCost: 2100,
+        food: -4,
+        growth: 3,
+        publicOrder: 2,
+        latin: 0,
+        political: 0,
+        research: 12,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 200
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier4: {
+      coloniaMasterGlassMaker: {
+        baseCost: 3100,
+        food: -8,
+        growth: 4,
+        publicOrder: 3,
+        latin: 0,
+        political: 0,
+        research: 16,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 300
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    }
   }
 }
 
@@ -1449,7 +1563,7 @@ const romeBuildings = {
         publicOrder: 0,
         latin: 0,
         political: 0,
-        reesearch: 0,
+        research: 0,
         income: {
           subsistence: 0,
           agriculture: 0,
