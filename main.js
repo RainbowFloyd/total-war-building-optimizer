@@ -19,7 +19,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -42,7 +42,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       civilColonia: {
@@ -63,7 +63,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -86,7 +86,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       civilMunicipium: {
@@ -107,7 +107,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -130,7 +130,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       civilUrbs: {
@@ -151,7 +151,227 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      }
+    }
+  },
+  minorSettlement: {
+    tier1: {
+      village: {
+          baseCost: 1200,
+          food: 0,
+          growth: 1,
+          publicOrder: 0,
+          latin: 0,
+          political: 0,
+          research: 0,
+          incomeSubsistence: 50,
+          incomeAgriculture: 0,
+          incomeCulture: 0,
+          incomeCommerce: 0,
+          incomeIndustry: 0,
+          boostAll: 1,
+          boostAgriculture: 0,
+          boostCulture: 0,
+          boostCommerce: 0,
+          boostIndustry: 0,
+          boostMaritime: 0,
+          boostSlaves: 0
+      }
+    },
+    tier2: {
+      marketSettlement: {
+        baseCost: 1800,
+        food: -1,
+        growth: 2,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 0,
+        incomeAgriculture: 0,
+        incomeCulture: 0,
+        incomeCommerce: 100,
+        incomeIndustry: 0,
+        boostAll: 0,
+        boostAgriculture: 0,
+        boostCulture: 0,
+        boostCommerce: 3,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      },
+      farmingSettlement: {
+        baseCost: 1800,
+        food: -1,
+        growth: 0,
+        publicOrder: 2,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 0,
+        incomeAgriculture: 100,
+        incomeCulture: 0,
+        incomeCommerce: 0,
+        incomeIndustry: 0,
+        boostAll: 0,
+        boostAgriculture: 3,
+        boostCulture: 0,
+        boostCommerce: 0,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      },
+      civilSettlement: {
+        baseCost: 1900,
+        food: -1,
+        growth: 2,
+        publicOrder: 1,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 100,
+        incomeAgriculture: 0,
+        incomeCulture: 0,
+        incomeCommerce: 0,
+        incomeIndustry: 0,
+        boostAll: 2,
+        boostAgriculture: 0,
+        boostCulture: 0,
+        boostCommerce: 0,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      }
+    },
+    tier3: {
+      marketTown: {
+        baseCost: 2700,
+        food: -4,
+        growth: 3,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 0,
+        incomeAgriculture: 0,
+        incomeCulture: 0,
+        incomeCommerce: 150,
+        incomeIndustry: 0,
+        boostAll: 0,
+        boostAgriculture: 0,
+        boostCulture: 0,
+        boostCommerce: 6,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      },
+      farmingTown: {
+        baseCost: 2600,
+        food: -4,
+        growth: 3,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 0,
+        incomeAgriculture: 150,
+        incomeCulture: 0,
+        incomeCommerce: 0,
+        incomeIndustry: 0,
+        boostAll: 0,
+        boostAgriculture: 6,
+        boostCulture: 0,
+        boostCommerce: 0,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      },
+      civilTown: {
+        baseCost: 2700,
+        food: -4,
+        growth: 3,
+        publicOrder: 2,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 150,
+        incomeAgriculture: 0,
+        incomeCulture: 0,
+        incomeCommerce: 0,
+        incomeIndustry: 0,
+        boostAll: 4,
+        boostAgriculture: 0,
+        boostCulture: 0,
+        boostCommerce: 0,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      }
+    },
+    tier4: {
+      marketColonia: {
+        baseCost: 3700,
+        food: -8,
+        growth: 4,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 0,
+        incomeAgriculture: 0,
+        incomeCulture: 0,
+        incomeCommerce: 200,
+        incomeIndustry: 0,
+        boostAll: 0,
+        boostAgriculture: 0,
+        boostCulture: 0,
+        boostCommerce: 9,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      },
+      farmingColonia: {
+        baseCost: 3600,
+        food: -8,
+        growth: 4,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 0,
+        incomeAgriculture: 200,
+        incomeCulture: 0,
+        incomeCommerce: 0,
+        incomeIndustry: 0,
+        boostAll: 0,
+        boostAgriculture: 9,
+        boostCulture: 0,
+        boostCommerce: 0,
+        boostIndustry: 0,
+        boostMaritime: 0,
+        boostSlaves: 0
+      },
+      civilColonia: {
+        baseCost: 3800,
+        food: -8,
+        growth: 4,
+        publicOrder: 3,
+        latin: 0,
+        political: 0,
+        research: 0,
+        incomeSubsistence: 200,
+        incomeAgriculture: 0,
+        incomeCulture: 0,
+        incomeCommerce: 0,
+        incomeIndustry: 0,
+        boostAll: 6,
+        boostAgriculture: 0,
+        boostCulture: 0,
+        boostCommerce: 0,
+        boostIndustry: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     }
@@ -176,7 +396,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -199,7 +419,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 10,
+        boostMaritime: 10,
         boostSlaves: 0
       },
       shrineOfMinerva: {
@@ -220,7 +440,7 @@ const romeBuildings = {
         boostCulture: 5,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       shrineOfMars: {
@@ -241,7 +461,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 3
       },
       shrineOfVulcan: {
@@ -262,7 +482,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 5,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       shrineOfJupiter: {
@@ -283,7 +503,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -306,7 +526,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       templeOfMars: {
@@ -327,7 +547,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 6
       },
       templeOfVulcan: {
@@ -348,7 +568,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 10,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       templeOfJupiter: {
@@ -369,7 +589,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       templeOfNeptune: {
@@ -390,7 +610,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 20,
+        boostMaritime: 20,
         boostSlaves: 0
       }
     },
@@ -413,7 +633,7 @@ const romeBuildings = {
         boostCulture: 20,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       basilicaOfMars: {
@@ -434,7 +654,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 12
       },
       basilicaOfVulcan: {
@@ -455,7 +675,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 20,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       basilicaOfJupiter: {
@@ -476,7 +696,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       basilicaOfNeptune: {
@@ -497,7 +717,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 30,
+        boostMaritime: 30,
         boostSlaves: 0
       }
     },
@@ -520,7 +740,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     }
@@ -545,7 +765,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -568,7 +788,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       latrines: {
@@ -589,7 +809,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       fountains: {
@@ -610,7 +830,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -633,7 +853,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       sewers: {
@@ -654,7 +874,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       publicBaths: {
@@ -675,7 +895,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -698,7 +918,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       cloaca: {
@@ -719,7 +939,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       },
       Thermae: {
@@ -740,7 +960,7 @@ const romeBuildings = {
         boostCulture: 240,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     },
@@ -763,7 +983,7 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
       }
     }
@@ -787,5 +1007,5 @@ const romeBuildings = {
         boostCulture: 0,
         boostCommerce: 0,
         boostIndustry: 0,
-        boostmaritime: 0,
+        boostMaritime: 0,
         boostSlaves: 0
