@@ -1554,6 +1554,120 @@ const romeBuildings = {
         }
       }
     }
+  },
+  gold: {
+    tier1: {
+      villageGoldMine: {
+        baseCost: 1400,
+          food: 0,
+          growth: 1,
+          publicOrder: 0,
+          latin: 0,
+          political: 0,
+          research: 0,
+          income: {
+            subsistence: 0,
+            agriculture: 0,
+            culture: 0,
+            commerce: 0,
+            industry: 200
+          },
+          boost: {
+            all: 0,
+            agriculture: 0,
+            culture: 0,
+            commerce: 0,
+            industry: 5,
+            maritime: 0,
+            trade: 0,
+            slaves: 0
+          }
+      }
+    },
+    tier2: {
+      settlementTrenchMine: {
+        baseCost: 3400,
+        food: -1
+        growth: 2,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 350
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 10,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier3: {
+      townShaftMine: {
+        baseCost: 6500,
+        food: -4,
+        growth: 3,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 500
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 15,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier4: {
+      coloniaSluicedMine: {
+        baseCost: 11800,
+        food: -8,
+        growth: 4,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 700
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 5,
+          industry: 20,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    }
   }
 }
 
