@@ -1847,6 +1847,95 @@ const romeBuildings = {
         }
       }
     }
+  },
+  horse: {
+    tier1: {
+      villageHorseTrainers: {
+        baseCost: 1000,
+        food: 0,
+        growth: 1,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 100,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier2: {
+      townHorseBreeders: {
+        baseCost: 2100,
+        food: -2,
+        growth: 2,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 200,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier3: {
+      coloniaMasterHorseBreeder: {
+        baseCost: 3900,
+        food: -6,
+        growth: 3,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 300,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    }
   }
 }
 
