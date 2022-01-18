@@ -2197,6 +2197,124 @@ const romeBuildings = {
         }
       }
     }
+  },
+  leather: {
+    tier1: {
+      villageTannery: {
+        baseCost: 1000,
+        food: 0,
+        growth: 1,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 100
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 5,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier2: {
+      settlementPoenAirTannery: {
+        baseCost: 1400,
+        food: -1,
+        growth: 2,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 150
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 10,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier3: {
+      townLeatherWorkshop: {
+        baseCost: 1900,
+        food: -4,
+        growth: 3,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 200
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 15,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier4: {
+      coloniaMasterLeatherWorkshop: {
+        baseCost: 2500,
+        food: -8,
+        growth: 4,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 250
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 20,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    }
   }
 }
 
