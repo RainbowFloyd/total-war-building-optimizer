@@ -1936,6 +1936,149 @@ const romeBuildings = {
         }
       }
     }
+  },
+  iron: {
+    tier1: {
+      villageIronWorkshop: {
+        baseCost: 1000,
+        food: 0,
+        growth: 1,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 100
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier2: {
+      townBlacksmith: {
+        baseCost: 2500,
+        food: -2,
+        growth: 2,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 200
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      },
+      townShieldmaker: {
+        baseCost: 2500,
+        food: -2,
+        growth: 2,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 200
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier3: {
+      coloniaWeaponsmith: {
+        baseCost: 3500,
+        food: -6,
+        growth: 3,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 300
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      },
+      coloniaArmourer: {
+        baseCost: 3500,
+        food: -6,
+        growth: 3,
+        publicOrder: 0,
+        latin: 0,
+        political: 0,
+        research: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 300
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          maritime: 0,
+          trade: 0,
+          food: 0,
+          slaves: 0
+        }
+      }
+    }
   }
 }
 
