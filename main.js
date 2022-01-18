@@ -9,18 +9,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 200,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 6,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 200,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 6,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier2: {
@@ -32,18 +36,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 250,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 6,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 250,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 6,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       civilColonia: {
         baseCost: 2700,
@@ -53,18 +61,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 300,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 8,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 300,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 8,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier3: {
@@ -76,18 +88,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 300,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 6,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 300,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 6,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       civilMunicipium: {
         baseCost: 4400,
@@ -97,18 +113,22 @@ const romeBuildings = {
         latin: 4,
         political: 0,
         research: 0,
-        incomeSubsistence: 400,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 10,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 400,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 10,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier4: {
@@ -120,18 +140,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 350,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 6,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 350,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 6,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       civilUrbs: {
         baseCost: 0,
@@ -141,18 +165,22 @@ const romeBuildings = {
         latin: 6,
         political: 0,
         research: 0,
-        incomeSubsistence: 500,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 12,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 500,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 12,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     }
   },
@@ -166,18 +194,22 @@ const romeBuildings = {
           latin: 0,
           political: 0,
           research: 0,
-          incomeSubsistence: 50,
-          incomeAgriculture: 0,
-          incomeCulture: 0,
-          incomeCommerce: 0,
-          incomeIndustry: 0,
-          boostAll: 1,
-          boostAgriculture: 0,
-          boostCulture: 0,
-          boostCommerce: 0,
-          boostIndustry: 0,
-          boostMaritime: 0,
-          boostSlaves: 0
+          income: {
+            subsistence: 50,
+            agriculture: 0,
+            culture: 0,
+            commerce: 0,
+            industry: 0
+          },
+          boost: {
+            all: 1,
+            agriculture: 0,
+            culture: 0,
+            commerce: 0,
+            industry: 0,
+            Maritime: 0,
+            slaves: 0
+          }
       }
     },
     tier2: {
@@ -189,18 +221,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 100,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 3,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 100,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 3,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       farmingSettlement: {
         baseCost: 1800,
@@ -210,18 +246,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 100,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 3,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 100,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 3,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       civilSettlement: {
         baseCost: 1900,
@@ -231,18 +271,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 100,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 2,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 100,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 2,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier3: {
@@ -254,18 +298,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 150,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 6,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 150,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 6,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       farmingTown: {
         baseCost: 2600,
@@ -275,18 +323,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 150,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 6,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 150,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 6,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       civilTown: {
         baseCost: 2700,
@@ -296,18 +348,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 150,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 4,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 150,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 4,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier4: {
@@ -319,18 +375,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 200,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 9,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 200,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 9,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       farmingColonia: {
         baseCost: 3600,
@@ -340,18 +400,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 200,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 9,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 200,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 9,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       civilColonia: {
         baseCost: 3800,
@@ -361,18 +425,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 200,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 6,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 200,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 6,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     }
   },
@@ -386,18 +454,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier2: {
@@ -409,18 +481,22 @@ const romeBuildings = {
         latin: 3,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 10,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 10,
+          slaves: 0
+        }
       },
       shrineOfMinerva: {
         baseCost: 1300,
@@ -430,18 +506,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 2,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 5,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 5,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       shrineOfMars: {
         baseCost: 1200,
@@ -451,18 +531,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 3
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 3
+        }
       },
       shrineOfVulcan: {
         baseCost: 1300,
@@ -472,18 +556,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 60,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 5,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 60,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 5,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       shrineOfJupiter: {
         baseCost: 1700,
@@ -493,18 +581,22 @@ const romeBuildings = {
         latin: 4,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 4,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 4,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier3: {
@@ -516,18 +608,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 4,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 10,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 10,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       templeOfMars: {
         baseCost: 1900,
@@ -537,18 +633,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 6
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 6
+        }
       },
       templeOfVulcan: {
         baseCost: 2100,
@@ -558,18 +658,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 120,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 10,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 120,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 10,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       templeOfJupiter: {
         baseCost: 3500,
@@ -579,18 +683,22 @@ const romeBuildings = {
         latin: 6,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 8,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 8,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       templeOfNeptune: {
         baseCost: 3000,
@@ -600,18 +708,22 @@ const romeBuildings = {
         latin: 4,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 20,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 20,
+          slaves: 0
+        }
       }
     },
     tier4: {
@@ -623,18 +735,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 8,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 20,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 20,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       basilicaOfMars: {
         baseCost: 3000,
@@ -644,18 +760,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 12
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 12
+        }
       },
       basilicaOfVulcan: {
         baseCost: 3700,
@@ -665,18 +785,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 240,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 20,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 240,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 20,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       basilicaOfJupiter: {
         baseCost: 6300,
@@ -686,18 +810,22 @@ const romeBuildings = {
         latin: 8,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 16,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 16,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       basilicaOfNeptune: {
         baseCost: 5000,
@@ -707,18 +835,22 @@ const romeBuildings = {
         latin: 5,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 30,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 30,
+          slaves: 0
+        }
       }
     },
     tier5: {
@@ -730,18 +862,22 @@ const romeBuildings = {
         latin: 12,
         political: 2,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 20,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 20,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     }
   },
@@ -755,18 +891,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier2: {
@@ -778,18 +918,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 5,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 5,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       latrines: {
         baseCost: 1800,
@@ -799,18 +943,22 @@ const romeBuildings = {
         latin: 2,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       fountains: {
         baseCost: 2600,
@@ -820,18 +968,22 @@ const romeBuildings = {
         latin: 4,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 60,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 60,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier3: {
@@ -843,18 +995,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 10,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 10,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       sewers: {
         baseCost: 3900,
@@ -864,18 +1020,22 @@ const romeBuildings = {
         latin: 3,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       publicBaths: {
         baseCost: 5400,
@@ -885,18 +1045,22 @@ const romeBuildings = {
         latin: 6,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 120,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 120,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier4: {
@@ -908,18 +1072,22 @@ const romeBuildings = {
         latin: 0,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 20,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 20,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       cloaca: {
         baseCost: 7000,
@@ -929,18 +1097,22 @@ const romeBuildings = {
         latin: 4,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       },
       Thermae: {
         baseCost: 10200,
@@ -950,18 +1122,22 @@ const romeBuildings = {
         latin: 8,
         political: 0,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 240,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 240,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     },
     tier5: {
@@ -973,18 +1149,22 @@ const romeBuildings = {
         latin: 8,
         political: 2,
         research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
       }
     }
   }
@@ -996,16 +1176,20 @@ const romeBuildings = {
         publicOrder: 0,
         latin: 0,
         political: 0,
-        research: 0,
-        incomeSubsistence: 0,
-        incomeAgriculture: 0,
-        incomeCulture: 0,
-        incomeCommerce: 0,
-        incomeIndustry: 0,
-        boostAll: 0,
-        boostAgriculture: 0,
-        boostCulture: 0,
-        boostCommerce: 0,
-        boostIndustry: 0,
-        boostMaritime: 0,
-        boostSlaves: 0
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          inndustry: 0
+        },
+        bo0ost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          inndustry: 0,
+          Maritime: 0,
+          slaves: 0
+        }
