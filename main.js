@@ -1256,7 +1256,7 @@ const romeBuildings = {
           agriculture: 0,
           culture: 0,
           commerce: 250,
-          inndustry: 0
+          industry: 0
         },
         boost: {
           all: 0,
@@ -1312,7 +1312,7 @@ const romeBuildings = {
           agriculture: 0,
           culture: 0,
           commerce: 500,
-          inndustry: 0
+          industry: 0
         },
         boost: {
           all: 0,
@@ -1322,6 +1322,120 @@ const romeBuildings = {
           industry: 0,
           maritime: 0,
           trade: 8,
+          slaves: 0
+        }
+      }
+    }
+  },
+  purpleDye: {
+    tier1: {
+      villageMurexSnailFarm: {
+        baseCost: 1100,
+        food: 0,
+        growth: 1,
+        publicOrder: 1,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 200,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 10,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier2: {
+      settlementSnailVats: {
+        baseCost: 1500,
+        food: -1,
+        growth: 2,
+        publicOrder: 2,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 350,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 20,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier3: {
+      townDyeWorks: {
+        baseCost: 2300,
+        food: -4,
+        growth: 3,
+        publicOrder: 4,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 500,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 30,
+          maritime: 0,
+          trade: 0,
+          slaves: 0
+        }
+      }
+    },
+    tier4: {
+      coloniaMasterDyeWorks: {
+        baseCost: 3800,
+        food: -8,
+        growth: 4,
+        publicOrder: 6,
+        latin: 0,
+        political: 0,
+        reesearch: 0,
+        income: {
+          subsistence: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 650,
+          industry: 0
+        },
+        boost: {
+          all: 0,
+          agriculture: 0,
+          culture: 0,
+          commerce: 0,
+          industry: 40,
+          maritime: 0,
+          trade: 0,
           slaves: 0
         }
       }
@@ -1341,7 +1455,7 @@ const romeBuildings = {
           agriculture: 0,
           culture: 0,
           commerce: 0,
-          inndustry: 0
+          industry: 0
         },
         boost: {
           all: 0,
